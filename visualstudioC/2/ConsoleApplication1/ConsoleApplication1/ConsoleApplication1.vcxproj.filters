@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.c">
+    <ClCompile Include="copyflie.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
