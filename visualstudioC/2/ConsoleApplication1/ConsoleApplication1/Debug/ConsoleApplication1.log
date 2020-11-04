@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ﻿C:\softwaree\visualStudio2017\IDE\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(ConsoleApplication1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   copyflie.c
   ConsoleApplication1.vcxproj -> E:\githubData\CPPlearning\visualstudioC\2\ConsoleApplication1\Debug\copyfile.exe
+=======
+﻿  ConsoleApplication1.c
+  ConsoleApplication1.vcxproj -> D:\gitupdata\CPPLearning\CPPLearning\visualstudioC\2\ConsoleApplication1\Debug\ConsoleApplication1.exe
+>>>>>>> 1f5b1c29eb76c1bab67bfcc793be82ea524d05b0
