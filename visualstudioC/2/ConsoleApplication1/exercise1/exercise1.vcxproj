@@ -151,7 +151,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exercise1.cpp" />
+    <Text Include="test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exercise2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
