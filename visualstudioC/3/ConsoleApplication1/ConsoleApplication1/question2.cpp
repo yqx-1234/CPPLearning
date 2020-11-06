@@ -12,8 +12,9 @@ int main() {
 	std::cin.ignore(100, '\n');//ºöÂÔ»Ø³µ
 	std::cout << '\n';
 
-
-
-
+	switch (typeIn){
+	case 'c':
+	case 'C':
+	}
 
 }
