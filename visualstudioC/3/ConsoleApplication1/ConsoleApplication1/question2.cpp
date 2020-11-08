@@ -15,6 +15,27 @@ int main() {
 	switch (typeIn){
 	case 'c':
 	case 'C':
+		tempOut = tempIn * RATIO + ADD_SUBSTRACT;
+		typeIn = 'C';
+		typeOut = 'F';
+		break;
+	case 'f':
+	case 'F':
+		tempOut = (tempIn - ADD_SUBSTRACT) / RATIO;
+		typeIn = 'F';
+		typeOut = 'C';
+		break;
+	default:
+		typeOut = 'E';
+		break;
 	}
-
+	if (typeOut != 'E') {
+		std::cout << tempIn << typeIn << "=" << tempOut << typeOut << "\n\n";
+	}
+	else {
+		std::cout << "输入错误！" << "\n\n";
+	}
+	std::cout << "输入任意字符结束" << "\n";
+	std::cin.get();
+	return 0;
 }
